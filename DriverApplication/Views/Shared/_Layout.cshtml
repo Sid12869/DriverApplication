@@ -31,13 +31,13 @@
                     @if (@User.Identity.IsAuthenticated)
                     {
                         <li>
-                            <a href="@Url.Action("Logout", "Auth")">Log Out</a>
+                            <a href="@Url.Action("Logout", "auth")">Log Out</a>
                         </li>
                     }
                     else
                     {
                         <li>
-                            <a href="@Url.Action("Registration", "Auth")">Regisration</a>
+                            <a href="@Url.Action("registration", "auth")">Register</a>
                         </li>
                     }
                     </ul>
